@@ -1,0 +1,1 @@
+let abc:number = 10;
