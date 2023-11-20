@@ -1,0 +1,107 @@
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    background: #0f1d2f;
+}
+
+.footer-bg {
+    background-color: #031327;
+}
+
+.area {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.area img {
+    display: flex;
+    width: 169px;
+    height: 69px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.area span {
+    color: white;
+    font-size: 2rem;
+}
+
+.metiz-info {
+    width: 25%;
+}
+
+.metiz-footer {
+    display: flex;
+    gap: 3rem;
+    width: 95%;
+    margin: auto;
+}
+
+.metiz-footer p,
+.metiz-moreinfo {
+    color: #7e8eaa;
+    font-size: 2rem;
+}
+
+.metiz-footer h2,
+.metiz-moreinfo h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.footer-img {
+    width: 25%;
+    width: 252px;
+    height: 70px;
+}
+
+.metiz-company {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.company-info {
+    width: 78%;
+    padding-top: 3rem;
+}
+
+.company-info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+
+& :hover {
+    color: orangered;
+}
+
+.company-img {
+    width: 22%;
+    width: 185px;
+    height: 70px;
+}
+
+.footer-hr {
+    margin-top: 5rem;
+    border: 1px solid #263547;
+}
+
+.footer-end {
+    display: flex;
+    padding-top: 8rem;
+    width: 95%;
+    margin: auto;
+    border-top: 1px white;
+    gap: 25rem;
+}
+
+.footer-end p {
+    color: #7e8eaa;
+    font-size: 1.4rem;
+    width: 30%;
+}
+
+/* hover */
