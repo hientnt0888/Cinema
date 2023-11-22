@@ -6,8 +6,6 @@ import IconFB from '../../assets/icon/icon-fb'
 function Footer() {
     return (
         <footer>
-
-            {/* <div className={css["footer"]}> */}
             <div className={css["footer-icon"]}>
                 <div className={css["icon-fb"]}>
                     <IconFB />

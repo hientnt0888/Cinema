@@ -1,0 +1,36 @@
+.list-moviebg {
+    background: linear-gradient(0.25turn, rgb(19 36 43), rgb(81 119 88), rgb(80 72 90))
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-slider {
+    background: url(/src/assets//img//bg-session-movie.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.btn-card {
+    padding: 2rem 6rem;
+    border: 1px solid white;
+    border-radius: 4rem;
+    margin: 3rem 3rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-card:hover {
+    background-color: orangered;
+}
+
+.list-movie {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+}

@@ -7,7 +7,6 @@ import Login from "../pages/login/login";
 import Register from "../pages/register/register";
 import Detail from "../pages/detail/detail";
 import HomeTemplate from "../templates/home/home-template";
-import { Children } from "react";
 
 
 export const router = createBrowserRouter([
