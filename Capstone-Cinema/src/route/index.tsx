@@ -30,6 +30,11 @@ export const router = createBrowserRouter([
                 path: "/login",
                 element: <Detail />
 
+            },
+            {
+                path: "/detail/:MaPhim",
+                element: <Detail />
+
             }
 
 

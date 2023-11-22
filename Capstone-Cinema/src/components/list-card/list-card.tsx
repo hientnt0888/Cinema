@@ -16,6 +16,7 @@ function ListCard(props: Props) {
                     {props.data.map((item) => {
                         return (
                             <Card
+                                mp={item.mp}
                                 desc={item.desc}
                                 name={item.name}
                                 src={item.src}

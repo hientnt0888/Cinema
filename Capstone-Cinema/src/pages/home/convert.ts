@@ -19,6 +19,7 @@ export const convertMovie = (data: TMovie[]):Tcard[]=>{
     return data.map(item=>({
         desc:item.moTa,
         name:item.tenPhim,
-        src:item.hinhAnh
+        src:item.hinhAnh,
+        mp:item.maPhim,
       }))
 }

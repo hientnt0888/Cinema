@@ -1,5 +1,9 @@
 .list-moviebg {
-    background: linear-gradient(0.25turn, rgb(19 36 43), rgb(81 119 88), rgb(80 72 90))
+    background: linear-gradient(0.25turn, rgb(19 36 43), rgb(81 119 88),
+            rgb(80 72 90));
+    padding-bottom: 10rem;
+
+
 }
 
 .btn {
@@ -32,5 +36,7 @@
     display: flex;
     gap: 4rem;
     flex-wrap: wrap;
+    max-width: 95%;
+    margin: auto;
 
 }
