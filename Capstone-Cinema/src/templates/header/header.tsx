@@ -24,8 +24,7 @@ function Header() {
                 </div>
                 <div className={css["header-info"]}></div>
                 <div className={css["header-img"]}>
-                    {/* <img src="/src/assets/img/METIZ_LOGO_WEB.png" alt="" /> */}
-                    <img src="../../../dist/img/METIZ_LOGO_WEB.png" alt="" />
+                    <img src="/src/dist/img/METIZ_LOGO_WEB.png" alt="" />
                 </div>
                 <div className={css["header-movie"]}>
                     <Link className={css["header-text"]} to={"."}>LỊCH CHIẾU</Link>
