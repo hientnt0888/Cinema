@@ -1,0 +1,39 @@
+.main {
+    /* margin: 10rem 0; */
+}
+
+.bg {
+    background: linear-gradient(0.25turn, rgb(19 36 43), rgb(81 119 88), rgb(80 72 90));
+}
+
+.info-movie {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+.bookTK {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    border: 1px solid white;
+    padding: 2rem 6rem;
+    border-radius: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bookTK:hover {
+    border-color: orangered;
+    color: white;
+    background-color: orangered;
+}

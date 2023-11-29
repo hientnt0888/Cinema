@@ -1,1 +1,0 @@
-let ten: string = "hien";
