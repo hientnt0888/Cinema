@@ -1,4 +1,3 @@
-import React from 'react'
 import Card, { Tcard } from './card/card'
 import css from "./listcard.module.css"
 type Props = {
@@ -30,5 +29,4 @@ function ListCard(props: Props) {
         </>
     )
 }
-
 export default ListCard

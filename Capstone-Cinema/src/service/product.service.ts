@@ -20,3 +20,15 @@ export const getMoviebyMP = async (MaPhim:string):Promise<TDetail> =>{
       throw new Error(error)
    }
   }
+  export const getTickets = async () =>{
+   try{
+      const resp = await axiosWthoutAuth("/QuanLyDatVe/LayDanhSachPhongVe");
+      return resp.data.content;
+   }
+   catch(error:any){
+      throw new Error(error)
+   }
+  }
+
+  
+  //https://movieapi.cyberlearn.vn/api/QuanLyNguoiDung/DangKy

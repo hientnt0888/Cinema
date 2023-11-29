@@ -100,4 +100,22 @@
     width: 30%;
 }
 
-/* hover */
+@media screen and (max-width: 768px) {
+
+    .metiz-footer p,
+    .metiz-footer span {
+        font-size: 1.2rem;
+    }
+
+    .footer-end {
+        gap: 5rem;
+        justify-content: space-around;
+    }
+
+    .footer-end p {
+        color: #7e8eaa;
+        font-size: 1.2rem;
+
+
+    }
+}

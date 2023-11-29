@@ -43,6 +43,11 @@
     padding: 0 4rem;
 }
 
+.header-text:hover,
+.header-log:hover {
+    color: orangered;
+}
+
 .header-login {
     position: absolute;
     right: 5rem;
@@ -54,5 +59,35 @@
     font-size: 1.5rem;
     color: white;
     padding: 0 1rem;
+
+}
+
+@media screen and (max-width:1100px) {
+    .header-movie {
+        display: none;
+    }
+
+    .header-login {
+        justify-content: center;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-login {
+        justify-content: center;
+        position: absolute;
+        right: -42%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .header-login {
+        justify-content: center;
+        position: absolute;
+        right: -40%;
+    }
 
 }
